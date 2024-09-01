@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE "Comment" ALTER COLUMN "comment" DROP DEFAULT,
+ALTER COLUMN "comment" SET DATA TYPE TEXT;
+
+-- AlterTable
+ALTER TABLE "Post" ALTER COLUMN "likes" SET DEFAULT 0;
